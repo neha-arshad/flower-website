@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: white;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #F5F5F5;
+    --foreground: white;
   }
 }
 
@@ -25,3 +25,26 @@ body {
     text-wrap: balance;
   }
 }
+
+/* For small devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* For medium devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* For large devices */
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+ 
