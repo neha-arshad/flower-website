@@ -78,7 +78,7 @@ const Product = () => {
       </div>
 
       <div className="ml-60 mr-60 bg-gradient-to-b from-[#D972A2] to-[#8B1F44] p-20 pt-5 h-96 flex">
-        <img
+        <Image
           src="/Images/product-image.png"
           alt="Product Image"
           className="w-[400px] h-[350px] "
@@ -94,7 +94,7 @@ const Product = () => {
           </h1>
         </div>
         <div className="flex items-center mt-8">
-          <img
+          <Image
             src="/Images/Frame.4.2.png"
             alt="hot deal"
             className="w-[500px] h-[500px]"
@@ -119,7 +119,7 @@ const Product = () => {
         <h1 className="text-black font-bold text-xl pl-10">Hot flowers</h1>
         <div className="grid grid-cols-4 gap-4">
           <div className="relative">
-            <img src="/Images/hot-flower1.png" alt="sunflower" />
+            <Image src="/Images/hot-flower1.png" alt="sunflower" />
             <span className="text-black text-xs pl-14">
               A bouquet of sunflower
             </span>
@@ -127,20 +127,20 @@ const Product = () => {
           </div>
 
           <div className="relative">
-            <img src="/Images/hot-flower2.png" alt="pink nd white rose" />
+            <Image src="/Images/hot-flower2.png" alt="pink nd white rose" />
             <span className="text-black text-xs pl-14">A bouquet of Roses</span>
             <span className="text-black text-sm pl-14"> $55.00</span>
             <span className="text-[#FD0707] line-through pl-4">$120.00</span>
           </div>
 
           <div className="relative">
-            <img src="/Images/hot-flower3.png" alt="Purple rose" />
+            <Image src="/Images/hot-flower3.png" alt="Purple rose" />
             <span className="text-black text-xs pl-14">A bouquet of Roses</span>
             <span className="text-black text-sm pl-14 block"> $62.00</span>
           </div>
 
           <div className="relative">
-            <img src="/Images/hot-flower4.png" alt="pink nd white rose" />
+            <Image src="/Images/hot-flower4.png" alt="pink nd white rose" />
             <span className="text-black text-xs pl-14">
               A bouquet of colorful Roses
             </span>

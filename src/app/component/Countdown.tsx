@@ -46,8 +46,8 @@ const CountdownTimer = () => {
 };
 
 interface TimeBoxProps {
-  label: any;
-  value: any;
+  label: string;
+  value: number;
 }
 const TimeBox: React.FC<TimeBoxProps> = ({ label, value }) => {
   return (

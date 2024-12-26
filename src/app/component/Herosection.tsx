@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import "animate.css";
+import Image from "next/image";
 
 const Herosection = () => {
   return (
@@ -20,7 +21,7 @@ const Herosection = () => {
                 animationDuration: "3s",
               }}
             >
-              FOr MOther's day
+              FOr MOther&apos;s day
             </h1>
             <p className="text-black pt-5 font-sans">
               EXCLUSIVE offer 10% off this week
@@ -30,20 +31,20 @@ const Herosection = () => {
             SHOP NOW
           </button>
           {/* First Image */}
-          <img
+          <Image
             className="absolute bottom-10 right-96 w-[500px] h-[500px]"
             src="/Images/hero2.png"
             alt="hero image"
           />
 
           {/* Second Image - slightly overlapping the first one */}
-          <img
+          <Image
             className="absolute top-28 right-56 w-[600px] h-[600px]"
             src="/Images/hero-image.png"
             alt="second image"
           />
           {/* Third Image - overlapping both first and second images */}
-          <img
+          <Image
             className="absolute top-48 right-44  w-[520px] h-[520px]"
             src="/Images/hero3.png"
             alt="third image"
